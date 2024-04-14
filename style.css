@@ -7,10 +7,11 @@
 
 #main {
     height: 100%;
+    border-radius: 5%;
     padding: 5%;
     text-align: center;
     background: var(--tg-theme-secondary-bg-color);
-    /* background: darkgray; */
+    background: darkgray;
 }
 
 body {
@@ -26,21 +27,25 @@ body {
     margin: 0 auto;
     padding: 2%;
     background: var(--tg-theme-bg-color);
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     border-radius: 5%;
 }
 
 img {
-    width: 10%;
-    height: 10%;
+    width: 90%;
+    height: 90%;
     object-fit: cover; /* Scales the image to fit the container */
+    border-radius: 10%;
 }
 
 .button-container {
+    width: 100%;
+    height: 100%;
     display: block;
     justify-content: space-around;
     margin-top: 1.5%;
     border-radius: 5%;
+    text-align: center;
 }
 
 h1 {
@@ -56,23 +61,23 @@ p {
     margin-top: 5px;
     font-size: 0.9em;
     color: var(--tg-theme-hint-color);
-    /* color: lightgray; */
+    color: lightgray;
 }
 
 button {
+    width: 90%;
+    height: 20%;
     border: 0px;
-    border-radius: 5px;
-    margin-top: 50px;
-    height: 60px;
-    width: 200px;
+    border-radius: 5%;
+    /* margin: 5%; */
+    padding: 5%;
     cursor: pointer;
     transition: all 300ms ease;
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
-    /* background: lightskyblue; */
 }
 
 button:hover {
     background: var(--tg-theme-accent-text-color);
-    /* background: lightblue; */
+    background: lightblue;
 }
