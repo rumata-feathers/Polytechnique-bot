@@ -21,13 +21,13 @@ h1 {
     /* flex-direction: row;
     justify-content: space-between; */
     align-items: center;
-    /* width: 45%; */
+    width: 45%;
     /* height: 40%; */
     text-align: center;
     margin: 1%;
     padding: 1%;
     background: var(--tg-theme-bg-color);
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     border-radius: 10%;
 }
 
@@ -95,12 +95,12 @@ h3 {
     transition: all 300ms ease;
     color: var(--tg-theme-button-text-color);
     background: var(--tg-theme-button-color);
-    background: lightgreen;
+    /* background: lightgreen; */
 }
 
 .add-to-cart:hover {
     background: var(--tg-theme-accent-text-color);
-    background: lightblue;
+    /* background: lightblue; */
 }
 
 #go-to-cart[disabled] {
